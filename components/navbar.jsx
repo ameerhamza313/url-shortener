@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Navbar = () => {
   return (
-    <nav className='h-16 bg-purple-700 flex justify-between px-3 items-center text-white '>
+    <nav className='h-16 bg-green-700 flex justify-between px-3 items-center text-white '>
       <div className='logo font-bold text-2xl'>
         <Link href='/'>URL Shortener</Link>
       </div>
@@ -22,12 +22,12 @@ const Navbar = () => {
         </Link>
         <li className='flex gap-3'>
           <Link href='/shorten'>
-            <button className='bg-purple-500 rounded-lg shadow-lg p-3 py-1 font-bold'>
+            <button className='bg-green-500 rounded-lg shadow-lg p-3 py-1 font-bold'>
               Try Now
             </button>
           </Link>
           <Link href='/github'>
-            <button className='bg-purple-500 rounded-lg shadow-lg p-3 py-1 font-bold'>
+            <button className='bg-green-500 rounded-lg shadow-lg p-3 py-1 font-bold'>
               GitHub
             </button>
           </Link>
