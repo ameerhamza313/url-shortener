@@ -9,7 +9,7 @@ const Navbar = () => {
 
   const toggleMenu = () => setMenuOpen(!menuOpen);
 
-  const navLinks = ['Home', 'About', 'Shorten', 'Contact Us'];
+  const navLinks = ['Home', 'Shorten', 'About', 'Contact'];
 
   return (
     <nav className='h-16 bg-green-700 flex justify-between items-center px-3 text-white relative z-10'>
