@@ -5,7 +5,7 @@ import { usePathname } from 'next/navigation';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  const pathname = usePathname(); // Retrieve the current path
+  const pathname = usePathname();
 
   const toggleMenu = () => setMenuOpen(!menuOpen);
 
@@ -13,9 +13,24 @@ const Navbar = () => {
 
   return (
     <nav className='h-16 bg-green-700 flex justify-between items-center px-3 text-white relative z-10'>
-      {/* Logo */}
-      <div className='logo font-bold text-xl'>
-        <Link href='/'>URL Shortener</Link>
+      {/* Logo with SVG Icon */}
+      <div className='flex items-center space-x-2'>
+        <Link href='/'>
+          <span className='flex items-center'>
+            {/* SVG Logo */}
+            <svg
+              width='24'
+              height='24'
+              viewBox='0 0 24 24'
+              fill='none'
+              xmlns='http://www.w3.org/2000/svg'
+              className='h-6 w-6 text-white'
+            >
+              <path d='M12 2L2 12h10v10l10-10H12V2z' fill='currentColor' />
+            </svg>
+            <span className='font-bold text-xl ml-2'>SwiftURL</span>
+          </span>
+        </Link>
       </div>
 
       {/* Menu Icon for Mobile */}

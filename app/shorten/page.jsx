@@ -40,8 +40,8 @@ const Shorten = () => {
 
   return (
     <main className='bg-green-100 min-h-[calc(100vh-64px)] flex items-center justify-center'>
-      <section className='mx-auto bg-green-200 p-6 md:p-8 lg:p-10 rounded-lg flex flex-col gap-6 shadow-md border border-gray-200 w-full max-w-lg'>
-        <h1 className='font-bold text-xl md:text-2xl lg:text-3xl text-center text-black-700'>
+      <section className='mx-auto bg-white p-6 md:p-8 lg:p-10 rounded-lg flex flex-col gap-6 shadow-md border border-gray-200 w-full max-w-lg'>
+        <h1 className='font-bold text-xl md:text-2xl lg:text-3xl text-center text-green-700'>
           Generate Your Short URLs
         </h1>
 
