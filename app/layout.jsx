@@ -14,8 +14,8 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: 'URL Shortener',
-  description: 'URL Shortener helps you shorten your Urls easily',
+  title: 'SwiftURL',
+  description: 'SwiftURL helps you shorten your Urls easily',
 };
 
 export default function RootLayout({ children }) {
@@ -30,4 +30,6 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
+
 
